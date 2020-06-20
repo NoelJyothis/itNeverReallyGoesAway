@@ -1,0 +1,33 @@
+video{
+margin: auto;
+border-radius: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+max-width: 70%;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  background-color: #a7bec0;
+  border: none;
+  border-radius: 4px;
+  color: #4a3025;
+  padding: 10px 48px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1080px){
+video{
+max-width: 90%;
+margin : 0px;
+border-radius: 0px;
+}
+}
